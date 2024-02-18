@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 5
   m_EditorClassIdentifier: 
   question: What is a variable?
+  answers:
+  - A class
+  - A private modifier
+  - A value that can change
+  - A player character
+  correctAnswerIndex: 0

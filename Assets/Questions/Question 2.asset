@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 2
   m_EditorClassIdentifier: 
   question: What is Unity?
+  answers:
+  - A game engine
+  - A cookie
+  - A big train
+  - A toy for children
+  correctAnswerIndex: 0

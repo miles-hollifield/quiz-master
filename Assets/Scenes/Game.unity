@@ -460,7 +460,7 @@ MonoBehaviour:
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
-  m_FillClockwise: 1
+  m_FillClockwise: 0
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
@@ -1449,7 +1449,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 206835}
-  question: {fileID: 11400000, guid: 9388a16ec9e0c7548a0d86ffd5e02e32, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 9388a16ec9e0c7548a0d86ffd5e02e32, type: 2}
+  - {fileID: 11400000, guid: 765af61ef91ac0149a2c9eee641c31b0, type: 2}
+  - {fileID: 11400000, guid: 7015795cffbd3d64c998884aaf0d2118, type: 2}
+  - {fileID: 11400000, guid: 5eca7320dc9a40c4e867746f8f3b2cb0, type: 2}
+  - {fileID: 11400000, guid: 199a27fe5cc6f74489560c1e9f3de3f0, type: 2}
   answerButtons:
   - {fileID: 761308149}
   - {fileID: 798352090}
@@ -1457,6 +1462,7 @@ MonoBehaviour:
   - {fileID: 2097411036}
   defaultAnswerSprite: {fileID: 21300000, guid: 341db18fe54595f46aff1ff8fef8cc30, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: a6fc5f4277688c34d8fcc1fa02a78e00, type: 3}
+  timerImage: {fileID: 516150163}
 --- !u!1 &1958189676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,8 +1492,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cdb67f9bbcc2f849bceb382819e0e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 5
-  timeToShowCorrectAnswer: 10
+  timeToCompleteQuestion: 15
+  timeToShowCorrectAnswer: 5
+  loadNextQuestion: 0
+  fillFraction: 0
   isAnsweringQuestion: 0
 --- !u!4 &1958189678
 Transform:

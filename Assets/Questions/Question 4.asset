@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b790c1d1bafea17438edcfb968c0996e, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: What is an asset?
+  question: Which two words can be used interchangeably?
+  answers:
+  - Blueprint and Function
+  - Blueprint and Method
+  - Function and Instance
+  - Function and Method
+  correctAnswerIndex: 0
