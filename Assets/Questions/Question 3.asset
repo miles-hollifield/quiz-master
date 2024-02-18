@@ -18,4 +18,4 @@ MonoBehaviour:
   - Access to its own class
   - Access for all classes
   - Sets everything to private access
-  correctAnswerIndex: 0
+  correctAnswerIndex: 1

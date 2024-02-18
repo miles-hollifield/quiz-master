@@ -18,4 +18,4 @@ MonoBehaviour:
   - A private modifier
   - A value that can change
   - A player character
-  correctAnswerIndex: 0
+  correctAnswerIndex: 2
